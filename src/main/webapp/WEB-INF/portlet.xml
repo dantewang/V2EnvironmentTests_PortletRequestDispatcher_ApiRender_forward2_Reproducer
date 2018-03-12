@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<portlet-app xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd" version="2.0">
+	<portlet>
+		<portlet-name>V2EnvironmentTests_PortletRequestDispatcher_ApiRender_forward2_Reproducer</portlet-name>
+		<display-name>V2EnvironmentTests_PortletRequestDispatcher_ApiRender_forward2 Reproducer Portlet</display-name>
+		<portlet-class>com.liferay.portlet.forward2.reproduce.ReproducerPortlet</portlet-class>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+		</supports>
+		<resource-bundle>content.Language</resource-bundle>
+		<portlet-info>
+			<title>V2EnvironmentTests_PortletRequestDispatcher_ApiRender_forward2 Reproducer Portlet</title>
+			<short-title>V2EnvironmentTests_PortletRequestDispatcher_ApiRender_forward2 Reproducer Portlet</short-title>
+			<keywords>V2EnvironmentTests_PortletRequestDispatcher_ApiRender_forward2 Reproducer Portlet</keywords>
+		</portlet-info>
+		<security-role-ref>
+			<role-name>administrator</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>guest</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>power-user</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>user</role-name>
+		</security-role-ref>
+	</portlet>
+</portlet-app>
